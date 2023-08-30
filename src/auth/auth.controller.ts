@@ -16,9 +16,10 @@ export class AuthController {
     }
 
 
-    @HttpCode(HttpStatus.OK)
+    @HttpCode(HttpStatus.OK) 
     @Post('signin')
     signIn(@Body() dto: AuthDTO) {
+        console.log(dto)
         return this.authService.signIn(dto)
     }
 }

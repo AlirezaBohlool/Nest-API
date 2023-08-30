@@ -1,38 +1,36 @@
-<<<<<<< HEAD
 version: '3.1'
 
 services:
-
   db:
     image: postgres
-    restart: always
     ports:
-      - 5434:5432
+      - "5434:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123
       POSTGRES_DB: nest
+    networks:
+      - nest-api
 
-  adminer:
-    image: adminer
-    restart: always
-=======
-version: '3.1'
-
-services:
-
-  db:
+  test-db:
     image: postgres
     restart: always
     ports:
-      - 5434:5432
+      - "5435:5432"
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123
       POSTGRES_DB: nest
+    networks:
+      - nest-api
 
   adminer:
     image: adminer
     restart: always
->>>>>>> 576dc1b (initial commit)
-    
+    ports:
+      - "8080:8080"
+    networks:
+      - nest-api
+
+networks:
+  nest-api:

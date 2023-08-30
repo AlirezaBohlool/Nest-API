@@ -43,8 +43,7 @@ export class AuthService {
                 email: dto.email
             }
         })
-        console.log(user)
-        // if user dose not exist throw exception
+        // if user dose not exist throw exception 
         if (!user) {
             throw new ForbiddenException('credentials incorrect')
         }
