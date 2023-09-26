@@ -1,11 +1,6 @@
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> develop
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
@@ -30,14 +25,6 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
->>>>>>> 576dc1b (initial commit)
-<<<<<<< HEAD
-=======
->>>>>>> development
-=======
->>>>>>> origin/master
->>>>>>> develop
-
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 <!-- 
@@ -74,25 +61,8 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# E2E Tests
-```bash
-=======
 ## Test
 
-# e2e tests
->>>>>>> development
-=======
-<<<<<<< HEAD
-## Test
-
-# e2e tests
-=======
-<<<<<<< HEAD
-# E2E Tests
-```bash
 >>>>>>> origin/master
 >>>>>>> develop
 $ yarn run test:e2e
